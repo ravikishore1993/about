@@ -48,14 +48,14 @@ $(document).ready(function(){
 	$('#intern').hover(
        function(){ $(this).animate({opacity:0})
         .queue(function(){
-             $(this).text("Qualcomm \\m/")
+             $(this).text("Ever \\m/")
                     .dequeue()
         })
         .animate({opacity:1});   },
 
        function(){ $(this).animate({opacity:0})
         .queue(function(){
-             $(this).text("I Intern")
+             $(this).text("Never")
                     .dequeue()
         })
         .animate({opacity:1});   }
