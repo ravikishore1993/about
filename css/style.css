@@ -1,5 +1,9 @@
 @import url('BebasNeue Light.ttf');
 
+@font-face {
+    font-family: "nokia-pure-headline-ultralight";
+    src: url("nokiapure.woff") format('woff');
+}
 html {
 	border-top: 5px solid #777;
 	height: 98%;
@@ -8,7 +12,8 @@ html {
 
 body {
 	margin-top: 0;
-	font-family: 'Bebas Neue', sans-serif;
+	font-family: "nokia-pure-headline-ultralight";
+	font-weight: 100;
 }
 
 a {
