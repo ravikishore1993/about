@@ -74,3 +74,26 @@ a {
 #social ul li:hover {
 	background-color: rgba(235, 203, 79, 0.66);
 }
+
+#tutorial a{
+	margin: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 300px;
+	font-size: 18px;
+	border: 2px solid rgba(235, 203, 79, 0.66);
+	color: #000;
+}
+
+#tutorial a:hover {
+	background-color: rgba(235, 203, 79, 0.66);
+	border: 2px solid #000;	
+}
+
+#tutorial {
+	position: absolute;
+	top: 80px;
+	right: 80px;
+}
